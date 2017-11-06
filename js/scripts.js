@@ -1,7 +1,7 @@
 // User Interface Logic
 
-$(document).ready(function () {
-  $("form").submit(function (event) {
+$(document).ready(function() {
+  $("form").submit(function(event) {
     event.preventDefault();
     $("ul#results").empty();
     var userInput = $("input#userInput").val();
@@ -26,4 +26,27 @@ function pingPong(number) {
   } else {
     return number;
   }
+}
+
+// overlay
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav1").style.width = "292.5px";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav1").style.width = "0%";
+}
+
+
+
+//rules
+function openNav1() {
+  document.getElementById("myNav").style.width = "292.5px";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav1() {
+  document.getElementById("myNav").style.width = "0%";
 }
