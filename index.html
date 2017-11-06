@@ -22,3 +22,44 @@
       </div>
 
       <div class="column left">
+        <!--about me overlay-->
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+          <div class="overlay-content">
+            <h6>Created By:</h6>
+            <h6>James Nyamweya</h6>
+            <a href="https://github.com/Jinaden">My GitHub</a>
+          </div>
+        </div>
+        <span class="hamburger1" style="padding-top:100px"><span style="font-size:18px; color:#d9534f;" onclick="openNav1()">About</span></span>
+
+
+        <!--rules overlay-->
+        <div id="myNav1" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <ul style="list-style-type:none;padding-right:20px;">
+              <li>Numbers divisible by 3 are replaced with "ping" </li>
+              <li>Numbers divisible by 5 are replaced with "pong"</li>
+              <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+            </ul>
+          </div>
+        </div>
+        <span class="hamburger2" style="padding-top:100px"><span style="font-size:18px; color:#d9534f;" onclick="openNav()">Rules</span></span>
+
+        <div class="scroll">
+          <h2>Results</h2>
+          <span class="output"><ul id="results">
+          </ul>
+          </span>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
